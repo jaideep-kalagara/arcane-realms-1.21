@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.supergamer.arcanerealms.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

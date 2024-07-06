@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "arcanerealms",
+	"version": "${version}",
+	"name": "Arcane Realms",
+	"description": "A simple mod adding a magic system for minecraft",
+	"authors": [
+		"SuperGamer10920"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/arcanerealms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.supergamer.arcanerealms.ArcaneRealms"
+		],
+		"client": [
+			"net.supergamer.arcanerealms.ArcaneRealmsClient"
+		],
+		"fabric-datagen": [
+			"net.supergamer.arcanerealms.ArcaneRealmsDataGenerator"
+		]
+	},
+	"mixins": [
+		"arcanerealms.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
