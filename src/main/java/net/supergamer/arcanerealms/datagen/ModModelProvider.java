@@ -20,5 +20,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.WAND_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ARCANE_WAND, Models.GENERATED);
     }
 }

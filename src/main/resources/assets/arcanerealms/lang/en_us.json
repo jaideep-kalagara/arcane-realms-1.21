@@ -1,3 +1,5 @@
 {
-  "item.arcanerealms.wand_shard": "Wand Shard"
+  "item.arcanerealms.wand_shard": "Wand Shard",
+  "itemgroup.magic": "Magic",
+  "item.arcanerealms.arcane_wand": "Arcane Wand"
 }
